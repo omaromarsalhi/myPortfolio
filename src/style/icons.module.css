@@ -1,0 +1,73 @@
+ :root{
+    --GREEN:#5bc267;
+    --PURPULE:#1c0d36;
+    --GREY:#848886;
+ }
+
+.icon1,.icon2,.icon3,.icon4{
+    background-color: var(--GREY);
+    color:white ;
+    border-radius: 50%;
+    width: 2rem;
+    height: auto;
+    position: fixed;
+    top: 40%;
+    left: 94%;
+    padding: 0.5rem;
+    box-shadow: 10px 10px 10pxrgba(0, 0, 0, 0.6);
+}
+.icon1:hover,.icon2:hover,.icon3:hover,.icon4:hover{
+    background-color: var(--GREEN);
+    transition: all 0.5s ease-in-out;
+}
+
+.icon2{
+    width: 1.6rem;
+    height: auto;
+    top: 47.5%;
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+}
+.icon3{
+    width: 1.7rem;
+    height: auto;
+    top: 55%;
+    padding: 0.6rem;
+}
+.icon4{
+    width: 1.7rem;
+    height: auto;
+    top: 62.6%;
+    padding: 0.6rem;
+}
+
+
+.active .icon1{
+    background-color: var(--GREEN);
+}
+.active .icon2{
+    background-color: var(--GREEN);
+}
+.active .icon3{
+    background-color: var(--GREEN);
+}
+.active .icon4{
+    background-color: var(--GREEN);
+}
+
+
+.notActive .icon1{
+    color:white ;
+}
+.notActive .icon2{
+    color:white ;
+}
+.notActive .icon3{
+    color:white ;
+}
+.notActive .icon4{
+    color:white ;
+}
+
+
+
